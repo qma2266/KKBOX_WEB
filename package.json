@@ -1,0 +1,15 @@
+{
+  "name": "practice_testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "KKTV.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	    "KKBOX": " ./node_modules/.bin/testcafe chrome login.js --skip-js-errors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.1.4"
+  }
+}
