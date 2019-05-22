@@ -5,11 +5,12 @@
   "main": "KKTV.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	    "KKBOX": " ./node_modules/.bin/testcafe chrome login.js --skip-js-errors"
+    "KKBOX": " ./node_modules/.bin/testcafe chrome login.js --skip-js-errors"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "mocha-junit-reporter": "^1.22.0",
     "testcafe": "^1.1.4"
   }
 }
